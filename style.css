@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366;
+    padding: 10px 30px;
+    color: white;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo-section img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.college-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-section {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.apply-btn {
+    background-color: yellow;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/* EXPLORE SECTION */
+.explore-section {
+    padding: 40px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.explore-section h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.block {
+    background-color: white;
+    padding: 20px;
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.block h3 {
+    margin-bottom: 10px;
+}
+
+.block p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.block a {
+    background-color: #003366;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* EVENTS */
+.events a {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons {
+    margin: 10px 0;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.contact-info {
+    margin-top: 10px;
+    font-size: 14px;
+}
